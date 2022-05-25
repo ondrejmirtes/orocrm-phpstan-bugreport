@@ -1,0 +1,21 @@
+parameters:
+    level: 7
+    inferPrivatePropertyTypeFromConstructor: true
+    reportUnmatchedIgnoredErrors: true
+    checkGenericClassInNonGenericObjectType: false
+    paths:
+        - %currentWorkingDirectory%/src/
+    excludePaths:
+        - %currentWorkingDirectory%/src/AppKernel.php
+    doctrine:
+        objectManagerLoader: phpstan/object-manager-loader.php
+    symfony:
+        container_xml_path: %rootDir%/../../../var/cache/dev/AppKernelDevDebugContainer.xml
+        console_application_loader: phpstan/console-loader.php
+    bootstrapFiles:
+        - %currentWorkingDirectory%/src/registerOroClassAlias.php
+
+includes:
+    - vendor/phpstan/phpstan-symfony/extension.neon
+    - vendor/phpstan/phpstan-doctrine/extension.neon
+    - vendor/phpstan/phpstan-doctrine/rules.neon

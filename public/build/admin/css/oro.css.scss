@@ -1,0 +1,115 @@
+@import "./../../../bundles/oroui/css/scss/settings/global-settings";
+@import "./../../../bundles/orodatagrid/css/scss/settings/global-settings";
+@import "./../../../bundles/orodatagrid/css/scss/settings/data-blank-content-config";
+@import "./../../../bundles/orotag/css/scss/settings/global-settings";
+@import "./../../../bundles/oroattachment/css/scss/variables/variables";
+@import "./../../../bundles/oroattachment/css/scss/variables/mobile-variables";
+@import "./../../../bundles/oroemail/css/scss/variables/variables";
+@import "./../../../bundles/orocron/css/scss/variables/variables";
+@import "./../../../bundles/orouser/css/scss/variables/variables";
+@import "./../../../bundles/orogoogleintegration/css/scss/variables/variables";
+@import "./../../../bundles/oroentity/css/scss/variables/variables";
+@import "./../../../bundles/orolocale/css/scss/variables/variables";
+@import "./../../../bundles/oroentityextend/css/scss/variables/variables";
+@import "./../../../bundles/orodigitalasset/css/scss/variables/variables";
+@import "./../../../bundles/oroactivity/css/scss/variables/variables";
+@import "./../../../bundles/oroactivitylist/css/scss/variables/variables";
+@import "./../../../bundles/oroaddress/css/scss/variables/variables";
+@import "./../../../bundles/oroentitypagination/css/scss/variables/variables";
+@import "./../../../bundles/orofilter/css/scss/variables/variables";
+@import "./../../../bundles/oroform/css/scss/variables/variables";
+@import "./../../../bundles/oronote/css/scss/variables/variables";
+@import "./../../../bundles/oroquerydesigner/css/scss/variables/variables";
+@import "./../../../bundles/orosidebar/css/scss/variables/variables";
+@import "./../../../bundles/oroworkflow/css/scss/variables/variables";
+@import "./../../../bundles/orocomment/css/scss/variables/variables";
+@import "./../../../bundles/orodashboard/css/scss/variables/variables";
+@import "./../../../bundles/orocontact/css/scss/variables/variables";
+@import "./../../../bundles/orocurrency/css/scss/variables/variables";
+@import "./../../../bundles/oronavigation/css/scss/variables/variables";
+@import "./../../../bundles/ororeminder/css/scss/variables/variables";
+@import "./../../../bundles/oromaintenance/css/scss/main";
+@import "./../../../bundles/oroscope/css/scss/main";
+/*rtl:begin:ignore*/
+@import "~timepicker/jquery.timepicker";
+/*rtl:end:ignore*/
+/*rtl:begin:ignore*/
+@import "~jstree/dist/themes/default/style.min";
+/*rtl:end:ignore*/
+@import "./../../../bundles/oroui/css/scss/bootstrap/bootstrap";
+/*rtl:begin:ignore*/
+@import "~slick-carousel/slick/slick";
+/*rtl:end:ignore*/
+@import "./../../../bundles/oroui/css/scss/font-awesome/core";
+@import "./../../../bundles/oroui/lib/simplecolorpicker/jquery.simplecolorpicker";
+@import "./../../../bundles/oroui/lib/simplecolorpicker/jquery.simplecolorpicker-fontawesome";
+@import "./../../../bundles/oroui/lib/minicolors/jquery.minicolors";
+/*rtl:begin:ignore*/
+@import "~overlayscrollbars/css/OverlayScrollbars";
+/*rtl:end:ignore*/
+/*rtl:begin:ignore*/
+@import "~jquery-ui-multiselect-widget/jquery.multiselect";
+/*rtl:end:ignore*/
+/*rtl:begin:ignore*/
+@import "~jquery-ui-multiselect-widget/jquery.multiselect.filter";
+/*rtl:end:ignore*/
+@import "./../../../bundles/oroui/css/jquery-ui.grid";
+@import "./../../../bundles/oroui/css/jquery-ui.custom";
+@import "./../../../bundles/oroui/css/scss/main";
+@import "./../../../bundles/oroui/css/all";
+@import "./../../../bundles/oroorganization/css/scss/main";
+@import "./../../../bundles/orosecurity/css/scss/main";
+@import "./../../../bundles/oroattachment/css/scss/main";
+@import "./../../../bundles/oroemail/css/scss/main";
+@import "./../../../bundles/orocron/css/scss/main";
+@import "./../../../bundles/orouser/css/scss/main";
+@import "./../../../bundles/orodatagrid/css/scss/main";
+@import "./../../../bundles/orodatagrid/css/scss/data-blank-content";
+@import "./../../../bundles/orotranslation/css/scss/main";
+@import "./../../../bundles/orogoogleintegration/css/scss/main";
+@import "./../../../bundles/oroentity/css/scss/main";
+@import "./../../../bundles/orolocale/css/scss/main";
+@import "./../../../bundles/oroentityextend/css/scss/main";
+@import "./../../../bundles/orodigitalasset/css/scss/main";
+@import "./../../../bundles/orointegration/css/scss/main";
+@import "./../../../bundles/oroimportexport/css/scss/main";
+@import "./../../../bundles/oroactivity/css/scss/main";
+@import "./../../../bundles/oroactivitylist/css/scss/main";
+@import "./../../../bundles/oroaddress/css/scss/main";
+@import "./../../../bundles/oroconfig/css/scss/main";
+@import "./../../../bundles/orodataaudit/css/scss/main";
+@import "./../../../bundles/oroentitymerge/css/scss/main";
+@import "./../../../bundles/oroentitypagination/css/scss/main";
+@import "./../../../bundles/orofilter/css/scss/main";
+@import "./../../../bundles/oroform/css/scss/main";
+@import "./../../../bundles/oroimap/css/scss/main";
+@import "./../../../bundles/oronote/css/scss/main";
+@import "./../../../bundles/oroquerydesigner/css/scss/main";
+@import "./../../../bundles/ororeport/css/scss/main";
+@import "./../../../bundles/orosearch/css/scss/main";
+@import "./../../../bundles/orosegment/css/segment";
+@import "./../../../bundles/orosidebar/css/scss/main";
+@import "./../../../bundles/orosidebar/sidebar_widgets/sticky_note/css/styles";
+@import "./../../../bundles/orotag/css/scss/main";
+@import "./../../../bundles/orowindows/css/jquery.dialog.extended";
+@import "./../../../bundles/oroworkflow/css/scss/main";
+@import "./../../../bundles/orocomment/css/scss/main";
+@import "./../../../bundles/orodashboard/css/scss/main";
+@import "./../../../bundles/orocalendar/css/scss/main";
+@import "./../../../bundles/orocalendar/css/scss/print";
+@import "./../../../bundles/orohangoutscall/css/scss/style";
+@import "./../../../bundles/orocontact/css/scss/main";
+@import "./../../../bundles/orocurrency/css/scss/main";
+@import "./../../../bundles/oronavigation/css/scss/main";
+@import "./../../../bundles/oromarketinglist/css/scss/main";
+@import "./../../../bundles/orotracking/css/scss/code";
+@import "./../../../bundles/orochannel/css/scss/main";
+@import "./../../../bundles/ororeminder/css/scss/main";
+@import "./../../../bundles/orotask/sidebar_widgets/assigned_tasks/css/styles";
+@import "./../../../bundles/oroanalytics/css/scss/main";
+@import "./../../../bundles/oromarketingactivity/css/scss/main";
+@import "./../../../bundles/orosales/css/scss/main";
+@import "./../../../bundles/orosales/css/scss/oro-sales";
+@import "./../../../bundles/orocase/css/scss/main";
+@import "./../../../bundles/orodotmailer/css/scss/styles";
+@import "./../../../bundles/oroui/themes/oro/css/style";
