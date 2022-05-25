@@ -1,0 +1,1 @@
+a:1:{i:0;O:39:"Oro\Component\Config\CumulativeResource":3:{i:0;s:24:"oro_security_permissions";i:1;a:0:{}i:2;O:62:"Oro\Component\Config\Loader\CumulativeResourceLoaderCollection":4:{i:0;i:0;i:1;a:1:{i:0;O:52:"Oro\Component\Config\Loader\YamlCumulativeFileLoader":1:{i:0;s:50:"/Resources/config/oro/configurable_permissions.yml";}}i:2;a:0:{}i:3;N;}}}

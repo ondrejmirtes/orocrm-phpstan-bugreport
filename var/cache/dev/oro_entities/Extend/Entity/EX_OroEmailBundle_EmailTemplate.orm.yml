@@ -1,0 +1,7 @@
+Extend\Entity\EX_OroEmailBundle_EmailTemplate:
+    type: mappedSuperclass
+    fields:
+        serialized_data:
+            column: serialized_data
+            type: json
+            nullable: true
